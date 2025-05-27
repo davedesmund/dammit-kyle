@@ -60,11 +60,24 @@ body {
     transition: all 0.2s ease;
     padding: 8px;
     flex-shrink: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .key.active {
     background-color: rgba(255, 255, 255, 0.2);
     transform: scale(0.95);
+}
+
+.key.playing {
+    background-color: #fff;
+    color: #000;
+}
+
+.key.playing .quote {
+    opacity: 1;
 }
 
 .key .letter {
@@ -124,6 +137,7 @@ body {
         font-size: 48px;
         margin-bottom: 20px;
         letter-spacing: 4px;
+        padding-top: 40px;
     }
 
     .container {
