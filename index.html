@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dammit Kyle Soundboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">DAMMIT KYLE</h1>
+        <div class="settings">
+            <div class="radio-group">
+                <label class="radio-label">
+                    <input type="radio" name="audioMode" value="single" checked>
+                    <span>Single Sound</span>
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="audioMode" value="overlap">
+                    <span>Overlapping Sounds</span>
+                </label>
+            </div>
+        </div>
+        <div class="keyboard">
+            <!-- Number row with special characters -->
+            <div class="keyboard-row">
+                <div class="key" data-key="1" data-sound="01_quietOnSet.mp3"><span class="letter">1</span><span class="quote">Quiet on Set</span></div>
+                <div class="key" data-key="2" data-sound="02_wellIllBe_G.mp3"><span class="letter">2</span><span class="quote">Well I'll Be</span></div>
+                <div class="key" data-key="3" data-sound="03_okay.mp3"><span class="letter">3</span><span class="quote">Okay</span></div>
+                <div class="key" data-key="4" data-sound="04_whosAskin_C.mp3"><span class="letter">4</span><span class="quote">Who's Askin'</span></div>
+                <div class="key" data-key="5" data-sound="05_iDontKnow.mp3"><span class="letter">5</span><span class="quote">I Don't Know</span></div>
+                <div class="key" data-key="6" data-sound="06_um.mp3"><span class="letter">6</span><span class="quote">Um</span></div>
+                <div class="key" data-key="7" data-sound="07_allTheBest_D.mp3"><span class="letter">7</span><span class="quote">All The Best</span></div>
+                <div class="key" data-key="8" data-sound="08_heyWilliam.mp3"><span class="letter">8</span><span class="quote">Hey William</span></div>
+                <div class="key" data-key="9" data-sound="11_godSpeedAndGodSloweth_A.mp3"><span class="letter">9</span><span class="quote">God Speed</span></div>
+                <div class="key" data-key="0" data-sound="12_whatchaBeggin_A.mp3"><span class="letter">0</span><span class="quote">Whatcha Beggin'</span></div>
+                <div class="key" data-key="-" data-sound="41_oneMonthOlderThanI_B.mp3"><span class="letter">-</span><span class="quote">One Month Older</span></div>
+                <div class="key" data-key="=" data-sound="43_smokyPineapple_A.mp3"><span class="letter">=</span><span class="quote">Smoky Pineapple</span></div>
+            </div>
+            <!-- QWERTY row with brackets -->
+            <div class="keyboard-row">
+                <div class="key" data-key="q" data-sound="13_whatchaSayin_A.mp3"><span class="letter">Q</span><span class="quote">Whatcha Sayin'</span></div>
+                <div class="key" data-key="w" data-sound="14_bomboclat_C.mp3"><span class="letter">W</span><span class="quote">Bomboclat</span></div>
+                <div class="key" data-key="e" data-sound="15_ohMyDays_A.mp3"><span class="letter">E</span><span class="quote">Oh My Days</span></div>
+                <div class="key" data-key="r" data-sound="16_wellButterMyButt_D.mp3"><span class="letter">R</span><span class="quote">Butter My Butt</span></div>
+                <div class="key" data-key="t" data-sound="17_timeCheck_A.mp3"><span class="letter">T</span><span class="quote">Time Check</span></div>
+                <div class="key" data-key="y" data-sound="18_circleBack_A.mp3"><span class="letter">Y</span><span class="quote">Circle Back</span></div>
+                <div class="key" data-key="u" data-sound="19_iGuess_D.mp3"><span class="letter">U</span><span class="quote">I Guess</span></div>
+                <div class="key" data-key="i" data-sound="20_noYoureGreat.mp3"><span class="letter">I</span><span class="quote">You're Great</span></div>
+                <div class="key" data-key="o" data-sound="21_noYouLookGreat.mp3"><span class="letter">O</span><span class="quote">You Look Great</span></div>
+                <div class="key" data-key="p" data-sound="22_noYoureNice.mp3"><span class="letter">P</span><span class="quote">You're Nice</span></div>
+                <div class="key" data-key="[" data-sound="23_noYouSoundGood.mp3"><span class="letter">[</span><span class="quote">Sound Good</span></div>
+                <div class="key" data-key="]" data-sound="24_bottom_C.mp3"><span class="letter">]</span><span class="quote">Bottom</span></div>
+            </div>
+            <!-- ASDF row with semicolon -->
+            <div class="keyboard-row">
+                <div class="key" data-key="a" data-sound="25_atlanta_A.mp3"><span class="letter">A</span><span class="quote">Atlanta</span></div>
+                <div class="key" data-key="s" data-sound="26_rutabaga_A.mp3"><span class="letter">S</span><span class="quote">Rutabaga</span></div>
+                <div class="key" data-key="d" data-sound="27_irie_B.mp3"><span class="letter">D</span><span class="quote">Irie</span></div>
+                <div class="key" data-key="f" data-sound="30_natalie_A.mp3"><span class="letter">F</span><span class="quote">Natalie</span></div>
+                <div class="key" data-key="g" data-sound="31_natz_B.mp3"><span class="letter">G</span><span class="quote">Natz</span></div>
+                <div class="key" data-key="h" data-sound="32_canWeGetAWetDown_A.mp3"><span class="letter">H</span><span class="quote">Wet Down</span></div>
+                <div class="key" data-key="j" data-sound="33_perfectWhiteMan_C.mp3"><span class="letter">J</span><span class="quote">Perfect White Man</span></div>
+                <div class="key" data-key="k" data-sound="34_happyBirthday.mp3"><span class="letter">K</span><span class="quote">Happy Birthday</span></div>
+                <div class="key" data-key="l" data-sound="35_whateverDude_A.mp3"><span class="letter">L</span><span class="quote">Whatever Dude</span></div>
+                <div class="key" data-key=";" data-sound="42_fart_A.mp3"><span class="letter">;</span><span class="quote">Fart</span></div>
+            </div>
+            <!-- ZXCV row -->
+            <div class="keyboard-row">
+                <div class="key" data-key="z" data-sound="36_clapYourHands_A.mp3"><span class="letter">Z</span><span class="quote">Clap Hands</span></div>
+                <div class="key" data-key="x" data-sound="37_doodoo_B.mp3"><span class="letter">X</span><span class="quote">Doodoo</span></div>
+                <div class="key" data-key="c" data-sound="38_doodooing_B.mp3"><span class="letter">C</span><span class="quote">Doodooing</span></div>
+                <div class="key" data-key="v" data-sound="39_asILiveAndBreathe_B.mp3"><span class="letter">V</span><span class="quote">As I Live</span></div>
+                <div class="key" data-key="b" data-sound="40_superfluous_A.mp3"><span class="letter">B</span><span class="quote">Superfluous</span></div>
+                <div class="key" data-key="n" data-sound="41_oneMonthOlderThanI_B.mp3"><span class="letter">N</span><span class="quote">One Month Older</span></div>
+                <div class="key" data-key="m" data-sound="43_smokyPineapple_A.mp3"><span class="letter">M</span><span class="quote">Smoky Pineapple</span></div>
+                <div class="key" data-key="," data-sound="31_twoTimes_A.mp3"><span class="letter">,</span><span class="quote">Two Times</span></div>
+                <div class="key" data-key="." data-sound="44_pickingUpBDubs.mp3"><span class="letter">.</span><span class="quote">BDubs</span></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
