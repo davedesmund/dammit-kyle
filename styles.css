@@ -120,27 +120,44 @@ body {
 }
 
 @media (max-width: 800px) {
+    .title {
+        font-size: 48px;
+        margin-bottom: 20px;
+        letter-spacing: 4px;
+    }
+
+    .container {
+        margin-top: -30px;
+    }
+
     .keyboard {
-        gap: 6px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 8px;
+        padding: 10px;
     }
 
     .keyboard-row {
-        gap: 6px;
+        display: contents;
     }
 
     .key {
-        width: 45px;
-        height: 45px;
-        padding: 3px;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1;
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     .key .letter {
-        font-size: 14px;
-        margin-bottom: 2px;
+        display: none;
     }
     
     .key .quote {
-        font-size: 6px;
+        font-size: 12px;
+        margin: 0;
     }
 }
 
